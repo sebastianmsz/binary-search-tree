@@ -4,8 +4,9 @@ module.exports = {
 		es2021: true,
 		amd: true,
 		node: true,
+		jest: true,
 	},
-	extends: ['eslint:recommended', 'prettier'],
+	extends: ['eslint:recommended', 'plugin:jest/recommended', 'prettier'],
 	overrides: [
 		{
 			env: {
