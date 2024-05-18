@@ -1,5 +1,5 @@
-export default function Node(data, left, right) {
+export default function Node(data) {
 	this.data = data;
-	this.left = left;
-	this.right = right;
+	this.left = null;
+	this.right = null;
 }
